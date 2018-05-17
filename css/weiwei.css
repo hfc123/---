@@ -165,7 +165,7 @@ dl :hover  dd{
   
 }
 .mycart :before{
-
+	top: 20px;	
 	position: absolute;
 	left: 5px;
 	content: url(../img/cart.png);
@@ -218,6 +218,7 @@ nav{
 }
 .jinxuan h3{
 	position: relative;
+	height: 36px;
 	line-height: 36px;
 }
 .jinxuan h3::before{
