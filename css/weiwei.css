@@ -186,9 +186,12 @@ dl :hover  dd{
 .cart:hover .maincart{
 	display: block;
 }
+.homelistmain{
+	height: 36px;
+	float: left;
+}
 .homelist{
 	list-style: none;
-	
 }
 .homelist li{
 	float: left;
@@ -201,10 +204,24 @@ dl :hover  dd{
 }
 .homelist a{
 		padding-top: 8px;
-		/*padding: 8px 18px ;*/
+		line-height: 36px;
+		text-align: center;
+		padding: 8px 18px ;
 }
 nav{
-	width: 1200px !important;
 	height: 36px;
-	
+}
+.jinxuan{
+	width: 200px;
+	height: 36px;
+	float: left;
+}
+.jinxuan h3{
+	position: relative;
+	line-height: 36px;
+}
+.jinxuan h3::before{
+	content: url(../img/jinxuan.png);
+	 vertical-align:middle;
+	 display:inline-block;
 }
