@@ -150,13 +150,61 @@ dl :hover  dd{
 }
 .cart{
 	float: right;
-		position: relative;
 	width: 200px;
 	height: 100px;
 }
 .mycart{
 	position: relative;
-top: 50%;
-    transform: translateY(-50%);
+   top: 50%;
+   transform: translateY(-50%);
+   text-align: center;
+   width: 200px;
+   height: 30px;
+   line-height: 30px;
+   background: gray;
+  
 }
+.mycart :before{
 
+	position: absolute;
+	left: 5px;
+	content: url(../img/cart.png);
+}
+.head-user-menu{
+	float: right;
+}
+.maincart{
+		
+	width: 300px;
+	height: 100px;
+	background: yellow;
+	position: absolute;
+	top: 60px;
+	display:none;
+	cursor: pointer;
+}
+.cart:hover .maincart{
+	display: block;
+}
+.homelist{
+	list-style: none;
+	
+}
+.homelist li{
+	float: left;
+	width:68px;
+	height: 36px;
+	background: red;
+	margin: 2px;
+	position: relative;
+
+}
+.homelist a{
+		padding-top: 8px;
+		/*padding: 8px 18px ;*/
+}
+nav{
+	width: 1200px !important;
+	height: 36px;
+	
+}
