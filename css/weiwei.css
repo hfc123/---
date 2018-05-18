@@ -189,13 +189,14 @@ dl :hover  dd{
 .homelistmain{
 	height: 36px;
 	float: left;
+	position: relative;
 }
 .homelist{
 	list-style: none;
 }
 .homelist li{
 	float: left;
-	width:68px;
+	width:100px;
 	height: 36px;
 	background: red;
 	margin: 2px;
@@ -203,6 +204,7 @@ dl :hover  dd{
 
 }
 .homelist a{
+	    font-size: 14px;
 		padding-top: 8px;
 		line-height: 36px;
 		text-align: center;
@@ -226,3 +228,11 @@ nav{
 	 vertical-align:middle;
 	 display:inline-block;
 }
+.materialtitle{
+	top: 36px;
+	position: absolute;
+	display: block;
+	height: 400px;
+	width: 900px;
+	background: yellow;
+} 
