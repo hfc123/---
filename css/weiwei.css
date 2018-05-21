@@ -425,7 +425,6 @@ nav {
 	font-size: 10px;
 	display: inline-block;
 	text-align: -webkit-left;
-	
 	height: 20px;
 	line-height: 20px;
 }
@@ -493,4 +492,40 @@ nav {
 .xia img{
 	width: 200px;
 	height: 115px;
+}
+.title1{
+	height: 40px;
+}
+.title1 h2{
+	width: 100px;
+	font-size: 20px;
+	float: left;
+	line-height: 40px;
+	
+}
+.title1 img {
+	float: left;
+}
+.flex1{
+	height: 181px;
+	display: flex;
+}
+
+.flex2{
+	height:127px ;
+	display: flex;
+}
+.flex3{
+	height:56px;
+	display: flex;
+}
+.flex1 img{
+	flex: 1;
+}
+.flex2 img{
+	flex: 1;
+	box-shadow: 0 0 1px 0 gray inset;
+}
+.flex3 img{
+	flex: 1;
 }
