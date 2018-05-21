@@ -350,13 +350,11 @@ nav {
 	height: 293px;
 }
 .leftshop{
+	float: left;
 	width: 989px;
 	height: 293px;
 }
-.rightshop{
-	width: 211px;
-	height: 293px;
-}
+
 
 .firstline{
 	
@@ -375,13 +373,11 @@ nav {
 	height: 32px;
 	text-align: center;
 }
-.firstline li:hover{
+.liclass{
 	color: #ffa500;
 	border-bottom: 2px solid #ffa500;
 }
-.firstline li:hover i{
-	display:block;
-}
+
 .firstline li i{
 	position: absolute;
 	display: none;
@@ -393,10 +389,14 @@ nav {
     border-right: 5px solid transparent;
     border-bottom: 10px solid #ffa500;
 }
+.iclass{
+	display:block;
+}
 .secondline{
 	width: 989px;
 	height: 250px;
 	position: relative;
+	border-bottom: 2px solid grey;
 }
 .secondline ul{
 	list-style: none;
@@ -415,7 +415,7 @@ nav {
 	text-align: left;
 	font-size: 8px;
 	overflow: hidden;
-	
+	cursor: pointer;
 }
 .secondline span:hover{
 	color: #ffa500;
@@ -439,6 +439,7 @@ nav {
 	padding-top: 10px;
 	width: 160px;
 	height: 160px;	
+	cursor: pointer;
 }
 .remai{
 	display: block;
@@ -448,4 +449,48 @@ nav {
 }
 .newshop{
 	display: none;
+}
+
+.rightshop{
+	padding-top: 15px;
+	width: 209px;
+	height: 293px;
+	float: right;
+
+}
+.shang{
+	width: 195px;
+	height: 157px;
+	background: ghostwhite;
+	border: 1px solid gainsboro;
+}
+.shang h5{
+	padding-left: 10px;
+	padding-top: 5px;
+	width: 195px;
+	height: 37px;
+	font-size: 16px;
+	line-height: 37px;
+}
+.shang li{
+	width: 176px;
+	height: 22px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	font-size: 10px;
+	line-height: 20px;
+	padding-left: 10px;
+}
+.shang li:hover{
+	color: #ffa500;	
+}
+.xia{
+	padding-top: 5px;
+	width: 200px;
+	height: 115px;
+}
+.xia img{
+	width: 200px;
+	height: 115px;
 }
