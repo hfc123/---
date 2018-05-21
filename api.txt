@@ -1,0 +1,63 @@
+https://pic.caiyunyi.com/yanzhi.php/Yanzhi/upload HTTP/1.1 --颜值测试
+---------------------------------------------------
+POST https://minisite-skill.msxiaobing.com/Api/ImageAnalyze/Process?service=CSYanzhiWeApp&tid=9QfE6FiUxbovQayaA3v2gR2fPalVvvdD&validate=JAwMABw6elBLEWBQVEdfUA== HTTP/1.1
+charset: utf-8
+Accept-Encoding: gzip
+referer: https://servicewechat.com/wx56f522b041e7d9bf/4/page-frame.html
+content-type: application/json
+User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; M6 Note Build/N2G47H; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044028 Mobile Safari/537.36 MicroMessenger/6.6.6.1300(0x26060636) NetType/4G Language/zh_CN MicroMessenger/6.6.6.1300(0x26060636) NetType/WIFI Language/zh_CN
+Content-Length: 144
+Host: minisite-skill.msxiaobing.com
+Connection: Keep-Alive
+
+{"Content":{"ImageUrl":"https://mediaplatform.msxiaobing.com/image/fetchimage?key=JMGsDUAgbwTViRBOFwStGkUNmt-CVldjpQaknBgS5jDrEdhe4qz9tryejA8"}}
+
+
+---------------------------------------------------------------------------
+
+POST https://mediaplatform.msxiaobing.com/Image/Upload HTTP/1.1
+Connection: Keep-Alive
+Accept-Encoding: gzip
+referer: https://servicewechat.com/wx56f522b041e7d9bf/4/page-frame.html
+content-tyep: multipart/form-data
+User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; M6 Note Build/N2G47H; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044028 Mobile Safari/537.36 MicroMessenger/6.6.6.1300(0x26060636) NetType/4G Language/zh_CN MicroMessenger/6.6.6.1300(0x26060636) NetType/WIFI Language/zh_CN
+Content-Type: multipart/form-data; boundary=1525399734902
+Content-Length: 44639
+Host: mediaplatform.msxiaobing.com
+
+--1525399734902
+Content-Disposition: form-data; name="file"; filename="tmp_9d212b2d7d3a52f9c623778caa322f5fcc4a9007362b0e73.jpg"
+Content-Type: image/jpg
+
+1.https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=862591842,2864954084&fm=27&gp=0.jpg
+2.https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2293675559,2668479973&fm=27&gp=0.jpg
+3.https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=1077429584,2212731436&fm=27&gp=0.jpg
+4.https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1599076608,1978200784&fm=27&gp=0.jpg
+
+为为网img
+1.http://www.mallvv.com/data/upload/shop/editor/web-101-101-5.jpg?274
+2.http://www.mallvv.com/data/upload/shop/editor/web-101-101-1.jpg?399
+3.http://www.mallvv.com/data/upload/shop/editor/web-101-101-2.jpg?884
+4.http://www.mallvv.com/data/upload/shop/editor/web-101-101-4.jpg?694
+
+热卖
+1.http://www.mallvv.com/data/upload/shop/store/goods/8763/8763_05260594616161954_240.jpg
+2.http://www.mallvv.com/data/upload/shop/store/goods/364/364_13430785_240.png
+3.http://www.mallvv.com/data/upload/shop/store/goods/8757/8757_05251748636970398_240.jpg
+4.http://www.mallvv.com/data/upload/shop/store/goods/5507/5507_05251897148029591_240.jpg
+5.http://www.mallvv.com/data/upload/shop/store/goods/930/930_05194049728014464_240.jpg
+热评
+1.http://www.mallvv.com/data/upload/shop/store/goods/889/889_13430408_240.jpg
+2.http://www.mallvv.com/data/upload/shop/store/goods/890/890_13430402_240.jpg
+3.http://www.mallvv.com/data/upload/shop/store/goods/5360/5360_05199211254696696_240.jpg
+4.http://www.mallvv.com/data/upload/shop/store/goods/5360/5360_05199211974308837_240.jpg
+5.http://www.mallvv.com/data/upload/shop/store/goods/5269/5269_05211992584327939_240.jpg
+最新上架
+1.http://www.mallvv.com/data/upload/shop/store/goods/8765/8765_05266566444674151_240.jpg
+2.http://www.mallvv.com/data/upload/shop/store/goods/8768/8768_05271773233816798_240.jpg
+3.http://www.mallvv.com/data/upload/shop/store/goods/8755/8755_05277930148984728_240.jpg
+4.http://www.mallvv.com/data/upload/shop/store/goods/5349/5349_05205115663544812_240.jpg
+5.http://www.mallvv.com/data/upload/shop/store/goods/8748/8748_05207070061298658_240.jpg
+
+
+

@@ -1,28 +1,26 @@
-body{
+body {
 	width: 1333px;
 }
-.main{
+
+.main {
 	width: 100%;
-	 background: rgb(250, 250, 250);
+	background: rgb(250, 250, 250);
 }
 
-
-.wrapper{
+.wrapper {
 	width: 1200px;
 	margin: auto;
-	
 }
 
-.topbar{
+.topbar {
 	width: 1200px !important;
 	height: 30px;
 	font-family: Arial, 宋体;
-    line-height: 20px;
-    color: rgb(119, 119, 119);
-   
+	line-height: 20px;
+	color: rgb(119, 119, 119);
 }
 
-.address{
+.address {
 	width: 20%;
 	float: left;
 	position: relative;
@@ -30,221 +28,252 @@ body{
 	line-height: 30px;
 	font-size: 12px;
 }
-.address ul{
+
+.address ul {
 	position: absolute;
 	top: 30px;
 	list-style: none;
+}
 
+.address li {
+	float: left;
+	display: list-item;
+	height: 20px;
+	line-height: 20px;
+	margin-left: 2px;
+	margin-right: 2px;
+	padding: 0 3px;
+	white-space: nowrap;
 }
-.address li{
-		float: left;
-		display: list-item;
-		height: 20px;
-		line-height: 20px;
-		margin-left: 2px;
-		margin-right: 2px;
-		padding: 0 3px;
-		white-space: nowrap;
-	
-		
+
+.address li :hover {
+	display: list-item;
+	background: yellow;
 }
-.address li :hover{
-	
-		display: list-item;
-		
-		background: yellow;
-}
-.deliver-address{
+
+.deliver-address {
 	display: none;
 }
-.address:hover .deliver-address{
+
+.address:hover .deliver-address {
 	display: block;
 }
 
-.user-entry{
+.user-entry {
 	width: 43%;
 	float: left;
 	text-align: right;
 	line-height: 30px;
 	font-size: 12px;
 }
-.quick-menu{
+
+.quick-menu {
 	float: right;
 	font-size: 15px;
 	line-height: 30px;
 }
-dd{
+
+dd {
 	position: absolute;
 	display: none;
 	width: 78px;
 	height: auto;
 	top: 0;
-	
 }
 
-.quick-menu dt{
+.quick-menu dt {
 	position: relative;
-
 }
-.quick-menu dl{
+
+.quick-menu dl {
 	float: left;
 	margin: 0 7px;
 }
-.quick-menu ul{
-	
+
+.quick-menu ul {
 	margin-top: 30px;
 }
-dl :hover  dd{
+
+dl :hover dd {
 	display: block;
 }
-.top2{
+
+.top2 {
 	height: 100px;
 	position: relative;
 }
-.banner2{
+
+.banner2 {
 	float: left;
 	margin-left: 20px;
-	 position: relative;
-      top: 50%;
-      transform: translateY(-50%);
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
 }
-.search{
+
+.search {
 	float: left;
-	 position: relative;
-      top: 50%;
-      transform: translateY(-50%);
-      width: 510px;
-      height: 89px;
-      background: yellow;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 510px;
+	height: 89px;
+	background: yellow;
 }
-.banner1{
+
+.banner1 {
 	float: left;
-	 position: relative;
-      top: 50%;
-      transform: translateY(-50%);
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
 }
-.centerY{
-	 position: relative;
+
+.centerY {
+	position: relative;
 	float: left;
 	top: 50%;
-    transform: translateY(-50%);
+	transform: translateY(-50%);
 }
-.goods{
+
+.goods {
 	margin-top: 30px;
 	float: left;
 	width: 32px;
 	height: 63px;
 }
-.block1{
+
+.block1 {
 	display: block;
 }
-.block2{
+
+.block2 {
 	display: none;
 }
-.goods:hover .block2{
+
+.goods:hover .block2 {
 	display: block;
 }
+
+
 /*text-indent input的从第x px开始输入*/
-.block3:hover{
+
+.block3:hover {
 	background: red;
 }
-.cart{
+
+.cart {
 	float: right;
 	width: 200px;
 	height: 100px;
 }
-.mycart{
+
+.mycart {
 	position: relative;
-   top: 50%;
-   transform: translateY(-50%);
-   text-align: center;
-   width: 200px;
-   height: 30px;
-   line-height: 30px;
-   background: gray;
-  
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+	width: 200px;
+	height: 30px;
+	line-height: 30px;
+	background: gray;
 }
-.mycart :before{
-	top: 20px;	
-	position: absolute;
-	left: 5px;
+
+.mycart :before {
+	padding-right: 10px;
 	content: url(../img/cart.png);
+	vertical-align: middle;
+	display: inline-block;
 }
-.head-user-menu{
+
+.head-user-menu {
 	float: right;
 }
-.maincart{
-		
+
+.maincart {
 	width: 300px;
 	height: 100px;
 	background: yellow;
 	position: absolute;
 	top: 60px;
-	display:none;
+	display: none;
 	cursor: pointer;
 }
-.cart:hover .maincart{
+
+.cart:hover .maincart {
 	display: block;
 }
-.homelistmain{
+
+.homelistmain {
 	height: 36px;
 	float: left;
 	position: relative;
 }
-.homelist{
+
+.homelist {
 	list-style: none;
 }
-.homelist li{
+
+.homelist li {
 	float: left;
-	width:100px;
+	width: 100px;
 	height: 36px;
-	background: red;
 	margin: 2px;
 	position: relative;
+}
 
+.homelist a {
+	font-size: 14px;
+	padding-top: 8px;
+	line-height: 36px;
+	text-align: center;
+	padding: 8px 18px;
 }
-.homelist a{
-	    font-size: 14px;
-		padding-top: 8px;
-		line-height: 36px;
-		text-align: center;
-		padding: 8px 18px ;
-}
-nav{
+
+nav {
 	height: 36px;
 }
-.jinxuan{
+
+.jinxuan {
 	width: 200px;
 	height: 36px;
 	float: left;
+	background: #ffa500;
+	position: relative;
 }
-.jinxuan h3{
+
+.jinxuan h3 {
 	position: relative;
 	height: 36px;
 	line-height: 36px;
 }
-.jinxuan h3::before{
+
+.jinxuan h3::before {
+	height: 36px;
+	padding-right: 10px;
 	content: url(../img/jinxuan.png);
-	 vertical-align:middle;
-	 display:inline-block;
+	vertical-align: middle;
+	display: inline-block;
 }
-.materialtitle{
+
+.materialtitle {
 	top: 36px;
 	position: absolute;
-	display: block;
+	display: none;
 	height: 400px;
 	width: 900px;
 	background: white;
-} 
-.div1{
-	float: left;
-width: 300px;
 }
-.divheight1{
+
+.div1 {
+	float: left;
+	width: 300px;
+}
+
+.divheight1 {
 	height: 150px;
 }
 
-.div1 li{
+.div1 li {
 	position: relative;
 	float: left;
 	margin: 3px 3px 3px 3px;
@@ -252,12 +281,171 @@ width: 300px;
 	font-size: 14px;
 	font-family: "微软雅黑";
 }
-.div1 h4{
+
+.div1 h4 {
 	padding: 5px;
 }
-.divheight2{
+
+.divheight2 {
 	height: 75px;
 }
-.divheight3{
+
+.divheight3 {
 	height: 80px;
+}
+
+.line {
+	width: 1333px;
+	height: 2px;
+	background: black;
+}
+
+.swiper-container {
+	width: 1333px;
+	height: 400px;
+}
+
+.swiper-slide {
+	width: 1333px;
+	height: 400px;
+	overflow: hidden;
+}
+
+.swiper-slide img {
+	position: relative;
+	left: -300px;
+}
+
+.jinxuanli {
+	position: absolute;
+	display: block;
+	width: 200px;
+	height: 400px;
+	top: 38px;
+	background-color: #666666;
+	color: black;
+	z-index: 999;
+}
+.jinxuanli h5{
+	padding: 5px 10px;
+	color: #ffa500;
+	width: 200px;
+	font-size: 14px;
+	display: inline-block;
+}
+.jinxuanli ul{
+	list-style: none;
+}
+.jinxuanli li{
+	margin: 3px 8px;
+	float: left;
+	font-size: 6px;
+	color: white;
+	cursor: pointer;
+}
+.jinxuanli li:hover{
+	color: #ffa500;
+}
+.shop{
+	height: 293px;
+}
+.leftshop{
+	width: 989px;
+	height: 293px;
+}
+.rightshop{
+	width: 211px;
+	height: 293px;
+}
+
+.firstline{
+	
+	width: 989px;
+	height: 42px;
+	border-bottom: 2px solid grey;
+}
+.firstline ul{
+	list-style: none;
+}
+.firstline li{
+	position: relative;
+	padding-top: 10px;
+	float: left;
+	width: 197.8px;
+	height: 32px;
+	text-align: center;
+}
+.firstline li:hover{
+	color: #ffa500;
+	border-bottom: 2px solid #ffa500;
+}
+.firstline li:hover i{
+	display:block;
+}
+.firstline li i{
+	position: absolute;
+	display: none;
+	top:32px;
+	left: 95px;
+	width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 10px solid #ffa500;
+}
+.secondline{
+	width: 989px;
+	height: 250px;
+	position: relative;
+}
+.secondline ul{
+	list-style: none;
+}
+.secondline li{
+	width: 197.8px;
+	float: left;
+	height: 250px;
+	text-align: center;
+}
+.secondline span{
+
+	width: 160px;
+	height: 32px;
+	display: inline-block;
+	text-align: left;
+	font-size: 8px;
+	overflow: hidden;
+	
+}
+.secondline span:hover{
+	color: #ffa500;
+}
+.secondline p{
+	width: 160px;
+	font-size: 10px;
+	display: inline-block;
+	text-align: -webkit-left;
+	
+	height: 20px;
+	line-height: 20px;
+}
+
+.secondline  strong{
+	font-size: 16px;
+	color: #ffa500;	
+}
+
+.secondline img{
+	padding-top: 10px;
+	width: 160px;
+	height: 160px;	
+}
+.remai{
+	display: block;
+}
+.reping{
+	display: none;
+}
+.newshop{
+	display: none;
 }
