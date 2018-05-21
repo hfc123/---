@@ -524,8 +524,9 @@ nav {
 }
 .flex2 img{
 	flex: 1;
-	box-shadow: 0 0 1px 0 gray inset;
+	box-shadow: 0 0 1px 0 gray ;
 }
 .flex3 img{
 	flex: 1;
+	box-shadow: 0 0 1px 0 gray ;
 }
