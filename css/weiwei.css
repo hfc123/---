@@ -234,5 +234,30 @@ nav{
 	display: block;
 	height: 400px;
 	width: 900px;
-	background: yellow;
+	background: white;
 } 
+.div1{
+	float: left;
+width: 300px;
+}
+.divheight1{
+	height: 150px;
+}
+
+.div1 li{
+	position: relative;
+	float: left;
+	margin: 3px 3px 3px 3px;
+	padding-left: 10px;
+	font-size: 14px;
+	font-family: "微软雅黑";
+}
+.div1 h4{
+	padding: 5px;
+}
+.divheight2{
+	height: 75px;
+}
+.divheight3{
+	height: 80px;
+}
